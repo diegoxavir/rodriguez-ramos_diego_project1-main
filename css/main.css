@@ -27,24 +27,41 @@
     font-family: "Passion One", sans-serif;
     font-weight: 900;
     font-style: normal;  
-    font-size: 40px;
+    font-size: 50px;
     letter-spacing: 8px;
+    color: orange;
+    text-shadow: 4px 2px red;
 }
 
 article {
     grid-column: 1/-1;
     text-align: center;
-    font-family: "Passion One", sans-serif;
-    font-weight: 400;
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
     font-style: normal;
+    line-height: 25px;
 }
 
 span {
     color: orange;
-    font-style: bold;
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:900;
+    font-style:italic;
+    letter-spacing: 1px;
+    font-size: 18px;
 }
 
 img {
     margin-top: 20px;
     margin-bottom: 30px;
+   border: solid 2px orange;
+}
+
+.sarah {
+    color: black;
+    font-weight:900;
+    font-style:italic;
+    font-size: 16px;
 }
